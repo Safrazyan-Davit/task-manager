@@ -1,0 +1,52 @@
+body, html {
+    margin: 0;
+    height: 100%;
+    background-color: #f6f6f6;
+}
+.sidebar {
+    width: 250px;
+    background-color: #121212;
+    color: white;
+    padding: 20px;
+    height: 100vh;
+}
+.project-link {
+    background-color: #1e1e1e;
+    padding: 8px 12px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    color: white;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+}
+.main {
+    flex-grow: 1;
+    padding: 40px;
+}
+.form-control, .form-control:focus {
+    background-color: #e7e7e7;
+    border: none;
+    box-shadow: none;
+}
+.form-buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+.btn-dark {
+    background-color: #2c2c2c;
+    border: none;
+}
+.project-card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+}
